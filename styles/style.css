@@ -116,7 +116,7 @@
   padding-bottom: 0;
 }
 
-.span-accent {
+.two-columns__span-accent {
   font-weight: 700; 
 }
 
@@ -171,7 +171,7 @@
   font-weight: normal;
 }
 
-.feinman {
+.feynman {
   position: relative;
   min-height: 790px;
   background-color: #f2f2f2;
@@ -181,7 +181,7 @@
   padding-top: 100px;
 }
 
-.feinman__title {
+.feynman__title {
   margin: auto;
   width: 648px;
   text-align: center;
@@ -190,7 +190,7 @@
   font-weight: 700;
 }
 
-.feinman__subtitle {
+.feynman__subtitle {
   margin: 70px auto 0 auto;
   text-align: center;
   font-size: 36px;
@@ -198,7 +198,7 @@
   font-weight: normal;
 }
 
-.feinman__link {
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -231,11 +231,11 @@
   margin-top: 80px;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: #fff;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: #fff; 
 }
 
@@ -322,62 +322,48 @@
 .footer__social-icon a{
   text-decoration: none;
   color: #fff;
-  line-height: 30px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
 .facebook-icon {
   position: relative;
-  display: block;
   width: 16px;
   height: 16px;
-  background-image: url('../images/facebook_color_white.svg');
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
 }
 
 .facebook-icon::after {
   content: "Facebook";
   position: absolute;
-  top: -5px;
+  top: -3px;
   left: 30px;
-  
   color: #fff;
 }
 
 .vkontakte-icon {
   position: relative;
-  display: block;
   width: 16px;
   height: 16px;
-  background-image: url('../images/vk_color_white.svg');
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
 }
 
 .vkontakte-icon::after {
   content: "Вконтакте";
   position: absolute;
-  top: -5px;
+  top: -3px;
   left: 30px;
   color: #fff;
 }
 
 .instagram-icon {
   position: relative;
-  display: block;
   width: 18px;
   height: 16px;
-  background-image: url('../images/instagram_color_white.svg');
-  background-size: 18px 16px;
-  background-repeat: no-repeat;
 }
 
 .instagram-icon::after {
   content: "Instagram";
   position: absolute;
-  top: -5px;
+  top: -3px;
   left: 30px;
   color: #fff;
 }
