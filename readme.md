@@ -1,10 +1,8 @@
-# Проектная работа "Научиться учиться"
+# Project: "Learning to Learn" by Yandex.Practicum
 
-Разработана в рамках обучения на курсе ЯндексПрактикум.
-  
-В первой проектной работе разметка выполнена с учетом требований БЭМ, 
-структура файлов проекта выполнена в соответствии с БЭМ (nested), верстка на flex, анимации.
-  
-Планы по доработке проекта: 
-* доработать проект в части кроссбраузности
-* добавить и стилизовать контактную форму
+This project was developed as part of the Yandex Practicum course.
+The markup was created following BEM (Block, Element, Modifier) methodology, and the project file structure adheres to BEM (nested). 
+The layout is built using Flexbox, and animations have been implemented.
+
+### Technology
+HTML, CSS
